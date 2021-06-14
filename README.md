@@ -1,5 +1,5 @@
 # CVSite
-A Personal Site to showcase my growing skills in web development
+A Personal Site to showcase my growing skills in web development (under construction)
 
 Plan to launch at my Domain when finished.
 
