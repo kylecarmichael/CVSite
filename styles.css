@@ -1,0 +1,28 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+header {
+    color: orangered;
+    text-align: center;
+    padding: 3rem;
+    font-size: 32pt;
+}
+
+main {
+    padding: 2rem 16rem 2rem 16rem;
+    background-color: #3b3e4d;
+    color: whitesmoke;
+}
+
+nav {
+    background-color: black;
+    padding: 1rem;
+    text-align: center;
+    font-size: 18pt;
+}
+
+nav a:hover {
+    color: orangered;
+}
