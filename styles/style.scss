@@ -1,4 +1,42 @@
+$accent-color: #ff811c;
+$darkest-color: #2a2d37;
+$dark-color: #404553;
+
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 header {
-    padding: 3em 10em 3em 10em;
-    color: orangered;
+    padding: 25vh 10vw;
+    color: $accent-color;
+    background-color: $dark-color;
+    text-align: center;
+}
+
+nav {
+    position: sticky;
+    padding: 25px 0;
+    text-align: center;
+    background-color: $darkest-color;
+    color: $accent-color;
+    top: 0;
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: $accent-color;
+}
+
+h2 {
+    color: $darkest-color;
+}
+
+section {
+    padding: 10vh 10vw;
 }
