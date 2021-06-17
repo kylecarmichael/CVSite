@@ -71,6 +71,11 @@ section p {
   padding: 0 10px;
 }
 
+.card-1 p, .card-2 p {
+  margin: 10px;
+  padding: 10px;
+}
+
 .card-3, .card-4 {
   visibility: hidden;
 }
