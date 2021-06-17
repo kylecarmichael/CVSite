@@ -39,9 +39,13 @@ h2 {
   font-size: 1.75rem;
 }
 
-section.about-me, section.projects, section.skills, section.contact {
-  margin: 10vh 10vw;
-  padding: 2vh 10vw 5vh 10vw;
+section.about-me,
+section.projects,
+section.skills,
+section.education,
+section.contact {
+  margin: 5vh 10vw;
+  padding: 2vh 5vw;
   background: #dce1f1;
 }
 
@@ -60,5 +64,14 @@ section p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.card-1 img, .card-2 img {
+  width: 400px;
+  padding: 0 10px;
+}
+
+.card-3, .card-4 {
+  visibility: hidden;
 }
 /*# sourceMappingURL=style.css.map */

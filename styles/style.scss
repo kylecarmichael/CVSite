@@ -25,17 +25,17 @@ nav {
     background-color: $darkest-color;
     color: $accent-color;
     top: 0;
-}
+    
+    a {
+        color: whitesmoke;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 1.25rem;
 
-nav a {
-    color: whitesmoke;
-    text-decoration: none;
-    margin: 0 10px;
-    font-size: 1.25rem;
-}
-
-nav a:hover {
-    color: $accent-color;
+        &:hover {
+            color: $accent-color;
+        }
+    }
 }
 
 h2 {
@@ -44,9 +44,13 @@ h2 {
     font-size: 1.75rem;
 }
 
-section.about-me, section.projects, section.skills, section.contact {
-    margin: 10vh 10vw;
-    padding: 2vh 10vw 5vh 10vw;
+section.about-me, 
+section.projects, 
+section.skills,
+section.education, 
+section.contact {
+    margin: 5vh 10vw;
+    padding: 2vh 5vw;
     background: $light-grey-color;
 }
 
@@ -63,4 +67,15 @@ section p {
 
 .projects-container {
     display: flex;
+}
+
+.card-1, .card-2 {
+    img {
+        width: 400px;
+        padding: 0 10px;
+    }
+}
+
+.card-3, .card-4 {
+    visibility: hidden;
 }
