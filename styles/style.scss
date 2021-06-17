@@ -1,10 +1,13 @@
 $accent-color: #ff811c;
 $darkest-color: #2a2d37;
 $dark-color: #404553;
+$grey-color: #9fa7bd;
+$light-grey-color: #dce1f1;
 
 body {
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
 }
 
 header {
@@ -12,6 +15,7 @@ header {
     color: $accent-color;
     background-color: $dark-color;
     text-align: center;
+    font-size: 2rem;
 }
 
 nav {
@@ -27,6 +31,7 @@ nav a {
     color: whitesmoke;
     text-decoration: none;
     margin: 0 10px;
+    font-size: 1.25rem;
 }
 
 nav a:hover {
@@ -35,8 +40,27 @@ nav a:hover {
 
 h2 {
     color: $darkest-color;
+    text-align: center;
+    font-size: 1.75rem;
 }
 
-section {
-    padding: 10vh 10vw;
+section.about-me, section.projects, section.skills, section.contact {
+    margin: 10vh 10vw;
+    padding: 2vh 10vw 5vh 10vw;
+    background: $light-grey-color;
+}
+
+section p {
+    font-size: 1.25rem;
+}
+
+.card {
+    background-color: $grey-color;
+    margin: 10px;
+    text-align: center;
+    padding: 10px ;
+}
+
+.projects-container {
+    display: flex;
 }
