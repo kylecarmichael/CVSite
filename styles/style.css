@@ -79,4 +79,15 @@ section p {
 .card-3, .card-4 {
   visibility: hidden;
 }
+
+section.contact a:hover {
+  color: #ff811c;
+}
+
+footer {
+  background-color: #2a2d37;
+  padding: 30px;
+  text-align: center;
+  color: #dce1f1;
+}
 /*# sourceMappingURL=style.css.map */

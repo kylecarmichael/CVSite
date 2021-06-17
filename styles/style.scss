@@ -84,3 +84,14 @@ section p {
 .card-3, .card-4 {
     visibility: hidden;
 }
+
+section.contact a:hover {
+    color: $accent-color;
+}
+
+footer {
+    background-color: $darkest-color;
+    padding: 30px;
+    text-align: center;
+    color: $light-grey-color;
+}
