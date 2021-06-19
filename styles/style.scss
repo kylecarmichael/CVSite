@@ -45,13 +45,17 @@ h2 {
 }
 
 section.about-me, 
-section.projects, 
+section.projects,
 section.skills,
 section.education, 
 section.contact {
-    margin: 5vh 10vw;
-    padding: 2vh 5vw;
+    padding: 5vh 15vw;
     background: $light-grey-color;
+}
+
+section.projects,
+section.education  {
+    background: $grey-color;
 }
 
 section p {
@@ -59,10 +63,11 @@ section p {
 }
 
 .card {
-    background-color: $grey-color;
+    background-color: $dark-color;
     margin: 10px;
     text-align: center;
     padding: 10px ;
+    color: $light-grey-color;
 }
 
 .projects-container {

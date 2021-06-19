@@ -44,9 +44,13 @@ section.projects,
 section.skills,
 section.education,
 section.contact {
-  margin: 5vh 10vw;
-  padding: 2vh 5vw;
+  padding: 5vh 15vw;
   background: #dce1f1;
+}
+
+section.projects,
+section.education {
+  background: #9fa7bd;
 }
 
 section p {
@@ -54,10 +58,11 @@ section p {
 }
 
 .card {
-  background-color: #9fa7bd;
+  background-color: #404553;
   margin: 10px;
   text-align: center;
   padding: 10px;
+  color: #dce1f1;
 }
 
 .projects-container {
